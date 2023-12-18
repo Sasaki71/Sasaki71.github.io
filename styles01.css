@@ -1,0 +1,300 @@
+body {
+  background-color: #f0efeb;
+}
+* {
+  font-family: "Manrope", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Barlow", sans-serif;
+  font-family: "Nunito", sans-serif;
+
+  margin: 0;
+}
+
+/*----------------------------HEADER--------------------*/
+ul {
+  background-color: #415a77;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul .sobre:hover {
+  background-color: #669bbc;
+  border-radius: 10px;
+}
+
+#navbar1 {
+  text-align: left;
+}
+
+#imagen1 {
+  width: 50px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+/*----------------------------INICIO--------------------*/
+
+#inicio1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* O cualquier otra unidad de medida */
+}
+
+#emoji1 {
+  width: 40px;
+}
+
+#header2,
+#emoji1 {
+  text-align: center;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+}
+
+#div-imagen2 {
+  clear: both;
+  display: block;
+  text-align: center;
+  float: left;
+  padding: 10px;
+}
+
+#imagen2 {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.parrafo1 {
+  font-size: 25px;
+}
+
+#encabezado1 {
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+
+#encabezado1,
+#imagen03 {
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+}
+
+.imagen3 {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/*----------------------------Comida rápida--------------------*/
+
+/*Espacio de hamburguesas*/
+#contenedor03 {
+  clear: both;
+}
+
+.encabezado02 {
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+
+#tercer-div {
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+/*Espacio de hotdogs*/
+
+#cuarto-div {
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+/*Espacio de pizzas*/
+#quinto-div {
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+
+/*----------------------------Comida tradicional--------------------*/
+
+/*Espacio de Gaeng Massaman*/
+#sexto-div {
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+
+/*Espacio de Tom Yum Goong*/
+
+#septimo-div {
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+/*Espacio de Som Tam*/
+
+#octavo-div {
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+/*----------------------------Espacio para review--------------------*/
+
+#noveno-div {
+  clear: both;
+  background-color: #5e60ce;
+  color: white;
+  width: 97%;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+#persona01 {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#encabezado03 {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+#review {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#parrafo-01 {
+  padding-left: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#centrado {
+  clear: both;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+/*-----gran parte de  mi código es un revoltijo de cosas pero ni modo, poco a poco*/
+
+/*----------------------------Espacio para postres--------------------*/
+
+/*Espacio de Khao Niaow Ma Muang*/
+#decimo-div{
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+
+/*Espacio de Roti Kluay*/
+#undecimo-div{
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+
+/*Espacio de Thai coconut ice cream*/
+#div-12{
+  text-align: left;
+  display: inline-flex;
+  float: left;
+  padding: 10px;
+  margin: auto;
+
+  font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
+}
+
+
+#div-14{
+  clear: both;
+  ;
+}
