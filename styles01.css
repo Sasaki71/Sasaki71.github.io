@@ -66,22 +66,19 @@ ul .sobre:hover {
 }
 
 #div-imagen2 {
-  clear: both;
-  display: block;
-  text-align: center;
+  text-align: left;
+  display: inline-flex;
   float: left;
   padding: 10px;
-}
+  margin: auto;
 
-#imagen2 {
-  width: 500px;
-  height: auto;
-  border-radius: 10px;
-}
-
-.parrafo1 {
   font-size: 25px;
+  margin-left: auto;
+  clear: both;
+  align-items: center;
 }
+
+
 
 #encabezado1 {
   font-size: 25px;
@@ -296,5 +293,11 @@ ul .sobre:hover {
 
 #div-14{
   clear: both;
-  ;
+  width: 1000px;
+  height: 200px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
 }
