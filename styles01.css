@@ -301,3 +301,11 @@ ul .sobre:hover {
   display: flex;
   justify-content: center;
 }
+
+/*Responsive*/
+@media(max-width:767px){
+ div, h1, p, li{
+   width:50%;
+   margin:30px;
+ }
+}
