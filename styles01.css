@@ -304,25 +304,22 @@ ul .sobre:hover {
 
 /*Responsive*/
 @media(max-width:767px){
- div{
-   width:50%;
-   margin:30px;
+ h1{
+   width:100%;
+   margin:5px;
+   text-align:center;
  }
+  div img{
+    clear:both;
+    width: 100%;
+    height: auto;
+  }
+  div p{
+    clear:both;
+    margin:5px;
+    padding:5px;
+    
+  }
 }
 
-div{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
- img {
-  max-width: 100%;
-  height: auto;
-}
-
-p {
-  flex: 1;
-  margin: 0;
-}
 
