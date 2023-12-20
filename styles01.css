@@ -309,3 +309,20 @@ ul .sobre:hover {
    margin:30px;
  }
 }
+
+div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+ img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  flex: 1;
+  margin: 0;
+}
+
